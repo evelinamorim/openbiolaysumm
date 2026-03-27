@@ -1,0 +1,661 @@
+{
+  "core mRNAs": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "gene body": [
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "cell proliferation": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "vestibular-evoked responses": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "dashed line": [
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "Sst mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "transition period": [
+    "http://dbpedia.org/resource/Transition",
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "NALCN": [
+    "http://dbpedia.org/resource/Nal\u00f3n"
+  ],
+  "Single cell": [
+    "http://dbpedia.org/resource/Single_cell"
+  ],
+  "Student t-test": [
+    "http://dbpedia.org/resource/Iran"
+  ],
+  "Life Sciences": [
+    "http://dbpedia.org/resource/England"
+  ],
+  "current responses": [
+    "http://dbpedia.org/resource/United_Kingdom"
+  ],
+  "contralateral eye": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "responsive MCs": [
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "Group data": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "Eisuke mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "quiet standing": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "ARH YFP": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Defender_(association_football)",
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "mice": [
+    "http://dbpedia.org/resource/Of_Mice_&_Men_(band)",
+    "http://dbpedia.org/resource/Bats_&_Mice"
+  ],
+  "ykkC subtype": [
+    "http://dbpedia.org/resource/Pandemic_H1N1/09_virus"
+  ],
+  "MAM": [
+    "http://dbpedia.org/resource/Mam"
+  ],
+  "cone sampling": [
+    "http://dbpedia.org/resource/Argentina",
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "cells expressing": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "germ cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "RBD": [
+    "http://dbpedia.org/resource/\u00bfQue_Hay_Detr\u00e1s_de_RBD%3F"
+  ],
+  "calcium transients": [
+    "http://dbpedia.org/resource/Village",
+    "http://de.dbpedia.org/resource/Calcium-Rich_Transient",
+    "http://de.dbpedia.org/resource/Calcium-Rich_Gap_Transient"
+  ],
+  "stripe regions": [
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/China",
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/California"
+  ],
+  "ferritin": [
+    "http://dbpedia.org/resource/Ferrite"
+  ],
+  "Whole-cell currents": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "single SNARE": [
+    "http://dbpedia.org/resource/Red_eye"
+  ],
+  "eye responses": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "human Tau": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "head forward": [
+    "http://dbpedia.org/resource/Forward_(association_football)",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/London"
+  ],
+  "scalp EEG": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Ethinylestradiol/cyproterone_acetate"
+  ],
+  "GFP": [
+    "http://dbpedia.org/resource/GFP",
+    "http://de.dbpedia.org/resource/GFP",
+    "http://de.dbpedia.org/resource/GfP"
+  ],
+  "RNA segments": [
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/List_of_The_Grim_Adventures_of_Billy_&_Mandy_episodes"
+  ],
+  "Fisher exact": [
+    "http://fr.dbpedia.org/resource/Test_exact_de_Fisher"
+  ],
+  "MHC class": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "muscae infection": [
+    "http://dbpedia.org/resource/HIV/AIDS"
+  ],
+  "cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "sensorin immunoreactivity": [
+    "http://dbpedia.org/resource/Film"
+  ],
+  "growth media": [
+    "http://dbpedia.org/resource/New_York_City"
+  ],
+  "F-actin levels": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Scale bar": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "transient interactions": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village"
+  ],
+  "developmental spindle": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "slow wave": [
+    "http://dbpedia.org/resource/Slow_wave"
+  ],
+  "mutants": [
+    "http://dbpedia.org/resource/Stan_Lee's_Mutants,_Monsters_&_Marvels",
+    "http://dbpedia.org/resource/Mutants_&_Masterminds"
+  ],
+  "Cell size": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "dendritic length": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cell types": [
+    "http://dbpedia.org/resource/Extranodal_NK/T-cell_lymphoma,_nasal_type"
+  ],
+  "head orientation": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/London"
+  ],
+  "extracellular ROS": [
+    "http://dbpedia.org/resource/Russia"
+  ],
+  "angular cone": [
+    "http://dbpedia.org/resource/Argentina",
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "control food": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "growth rates": [
+    "http://dbpedia.org/resource/Growth_rate"
+  ],
+  "SNARE complex": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "eye length": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "marginal zone": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "EPSP": [
+    "http://dbpedia.org/resource/EPSP",
+    "http://de.dbpedia.org/resource/EPSP",
+    "http://fr.dbpedia.org/resource/EPSP",
+    "http://de.dbpedia.org/resource/Feld-EPSP"
+  ],
+  "MHC": [
+    "http://dbpedia.org/resource/MHC"
+  ],
+  "Gamma variants": [
+    "http://de.dbpedia.org/resource/Gamma-Variante",
+    "http://fr.dbpedia.org/resource/Variant_Gamma"
+  ],
+  "EMS": [
+    "http://dbpedia.org/resource/Domat/Ems"
+  ],
+  "pigment cells": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Pigment_Cell_&_Melanoma_Research",
+    "http://de.dbpedia.org/resource/Pigment_Cell_Research"
+  ],
+  "free energy": [
+    "http://dbpedia.org/resource/Renewable_energy",
+    "http://dbpedia.org/resource/Free_energy"
+  ],
+  "contralateral ARH": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Defender_(association_football)",
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "complex ensemble": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "open eye": [
+    "http://dbpedia.org/resource/Eye_Opener",
+    "http://dbpedia.org/resource/Eyes_Wide_Open",
+    "http://dbpedia.org/resource/Open_Your_Eyes"
+  ],
+  "\u03b2-alanine transporter": [
+    "http://dbpedia.org/resource/Amoxicillin/clavulanic_acid"
+  ],
+  "transient complex": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village"
+  ],
+  "SNr": [
+    "http://dbpedia.org/resource/SNR"
+  ],
+  "oscillating magnetic": [
+    "http://de.dbpedia.org/resource/Magnetic_Field_Oscillating_Amplified_Thruster"
+  ],
+  "total dendritic": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/Australia",
+    "http://dbpedia.org/resource/Canada",
+    "http://dbpedia.org/resource/Italy",
+    "http://dbpedia.org/resource/Japan"
+  ],
+  "pluripotent cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "growth cones": [
+    "http://dbpedia.org/resource/List_of_The_Grim_Adventures_of_Billy_&_Mandy_episodes"
+  ],
+  "large cargoes": [
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/United_States"
+  ],
+  "spiral length": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cells studied": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "dense iridophores": [
+    "http://dbpedia.org/resource/California",
+    "http://dbpedia.org/resource/New_York_City"
+  ],
+  "glial cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "control mice": [
+    "http://dbpedia.org/resource/Dimitri_Vegas_&_Like_Mike_discography"
+  ],
+  "half-zippered SNARE": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Argentina"
+  ],
+  "EMS cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "foveal center": [
+    "http://dbpedia.org/resource/New_York_City"
+  ],
+  "Scale bars": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "single action": [
+    "http://dbpedia.org/resource/Smith_&_Wesson_Model_2"
+  ],
+  "diffusion coefficient": [
+    "http://de.dbpedia.org/resource/Apparent_Diffusion_Coefficient",
+    "http://fr.dbpedia.org/resource/Coefficient_de_diffusion",
+    "http://de.dbpedia.org/resource/Apparent_Diffusion_Coefficient_(Kernspintomographie)",
+    "http://fr.dbpedia.org/resource/Coefficient_de_r\u00e9sistance_\u00e0_la_diffusion_de_vapeur_d'eau"
+  ],
+  "wild-type pattern": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "whole-cell voltage-clamp": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "forward condition": [
+    "http://dbpedia.org/resource/Forward_(association_football)",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "SNARE assembly": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "light blue": [
+    "http://dbpedia.org/resource/Blue_Light"
+  ],
+  "F-actin flow": [
+    "http://dbpedia.org/resource/List_of_Will_&_Grace_episodes",
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod"
+  ],
+  "Pvalb": [
+    "http://dbpedia.org/resource/Prairie_View_A&M_University",
+    "http://dbpedia.org/resource/PVA"
+  ],
+  "eye model": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "anterior half": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Argentina"
+  ],
+  "contractile ring": [
+    "http://dbpedia.org/resource/Japan"
+  ],
+  "peak cone": [
+    "http://dbpedia.org/resource/List_of_peaks_named_Cinder_Cone",
+    "http://dbpedia.org/resource/Argentina"
+  ],
+  "spinal cord": [
+    "http://dbpedia.org/resource/Sulcus_of_spinal_cord"
+  ],
+  "initial population": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Australia",
+    "http://dbpedia.org/resource/New_York_City"
+  ],
+  "sCoaT form": [
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "Jurkat cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "trial number": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "cell inactivation": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "P-type ATPases": [
+    "http://dbpedia.org/resource/Defender_(association_football)",
+    "http://dbpedia.org/resource/United_States"
+  ],
+  "free MAM": [
+    "http://dbpedia.org/resource/Freeman"
+  ],
+  "Phos-tag western": [
+    "http://dbpedia.org/resource/Iran",
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/Germany",
+    "http://dbpedia.org/resource/Italy"
+  ],
+  "N-terminal region": [
+    "http://dbpedia.org/resource/California",
+    "http://dbpedia.org/resource/France"
+  ],
+  "non-target MNs": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "positive GFPs": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "Figure": [
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "Trypsinized cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "field strength": [
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "extract spindles": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "Sst": [
+    "http://dbpedia.org/resource/SST"
+  ],
+  "cell division": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "mutant cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "LPS avoidance": [
+    "http://dbpedia.org/resource/Album"
+  ],
+  "western blots": [
+    "http://dbpedia.org/resource/Iran",
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/Germany",
+    "http://dbpedia.org/resource/Italy"
+  ],
+  "retinal image": [
+    "http://de.dbpedia.org/resource/Retinal_Image_Display"
+  ],
+  "nuclear extracts": [
+    "http://dbpedia.org/resource/Gyeongju_Korea_Hydro_&_Nuclear_Power_FC"
+  ],
+  "BMP": [
+    "http://dbpedia.org/resource/BMP"
+  ],
+  "seed": [
+    "http://dbpedia.org/resource/Seed_(disambiguation)"
+  ],
+  "Anaef mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "DAP seeds": [
+    "http://dbpedia.org/resource/List_of_Will_&_Grace_episodes"
+  ],
+  "TBI patients": [
+    "http://dbpedia.org/resource/List_of_Nip/Tuck_episodes"
+  ],
+  "photoreceptor cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "GFP variants": [
+    "http://dbpedia.org/resource/Heckler_&_Koch_MP5"
+  ],
+  "NEO control": [
+    "http://dbpedia.org/resource/ANSI_escape_code"
+  ],
+  "UGI cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "RNA World": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/India",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/Iran",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/New_York_City",
+    "http://dbpedia.org/resource/Russia"
+  ],
+  "Tasmanian devil": [
+    "http://dbpedia.org/resource/Tasmanian_Devil_(disambiguation)",
+    "http://dbpedia.org/resource/Tasmania_Devils_Football_Club"
+  ],
+  "neural cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "European countries": [
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Central_European_Time"
+  ],
+  "Fucci mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "pertussis toxin": [
+    "http://de.dbpedia.org/resource/Pertussis-Toxin"
+  ],
+  "cone density": [
+    "http://dbpedia.org/resource/Argentina"
+  ],
+  "coli cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "peak INa": [
+    "http://dbpedia.org/resource/News-Press_&_Gazette_Company"
+  ],
+  "Max ERK": [
+    "http://dbpedia.org/resource/MAPK/ERK_pathway"
+  ],
+  "secondary structure": [
+    "http://dbpedia.org/resource/Secondary_structure_prediction",
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "normal embryos": [
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "ciliary cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "central cell": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "SNARE": [
+    "http://dbpedia.org/resource/Snare"
+  ],
+  "parameter estimates": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "LPS stimulates": [
+    "http://dbpedia.org/resource/Album"
+  ],
+  "BOLD signal": [
+    "http://de.dbpedia.org/resource/Bold-Signal",
+    "http://fr.dbpedia.org/resource/Signal_BOLD"
+  ],
+  "peak current": [
+    "http://dbpedia.org/resource/United_Kingdom"
+  ],
+  "targeted cells": [
+    "http://dbpedia.org/resource/Animal",
+    "http://fr.dbpedia.org/resource/Target_cells"
+  ],
+  "ncRNA interactions": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cell divisions": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "source data": [
+    "http://dbpedia.org/resource/Data_source"
+  ],
+  "sCoaT structures": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "scale bar": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "temperature increase": [
+    "http://dbpedia.org/resource/Poland"
+  ],
+  "MAE chromatin": [
+    "http://dbpedia.org/resource/Scaffold/matrix_attachment_region",
+    "http://dbpedia.org/resource/Spain"
+  ],
+  "Carl Zeiss": [
+    "http://dbpedia.org/resource/Sony_\u03b1_Carl_Zeiss_Vario-Sonnar_T*_24-70mm_f/2.8_ZA_SSM",
+    "http://dbpedia.org/resource/Sony_\u03b1_Carl_Zeiss_Sonnar_T*_135mm_f/1.8_ZA",
+    "http://dbpedia.org/resource/Sony_\u03b1_Carl_Zeiss_Planar_T*_85mm_f/1.4_ZA"
+  ],
+  "four-cell embryo": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Defender_(association_football)",
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/China"
+  ],
+  "cone locations": [
+    "http://dbpedia.org/resource/UN/LOCODE",
+    "http://dbpedia.org/resource/Argentina"
+  ],
+  "CHO cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "population-based data": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Australia"
+  ],
+  "stimulation power": [
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "longer eye": [
+    "http://dbpedia.org/resource/South_Park:_Bigger,_Longer_&_Uncut_(soundtrack)",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "Gap junctions": [
+    "http://de.dbpedia.org/resource/Gap_Junctions",
+    "http://de.dbpedia.org/resource/Gap_junctions"
+  ],
+  "CGN cultured": [
+    "http://dbpedia.org/resource/New_York_City"
+  ],
+  "Notch signaling": [
+    "http://de.dbpedia.org/resource/Notch-Signalweg"
+  ],
+  "time points": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "data sources": [
+    "http://dbpedia.org/resource/Data_source"
+  ],
+  "X-ray structure": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://fr.dbpedia.org/resource/Extended_X-Ray_Absorption_Fine_Structure"
+  ],
+  "stage": [
+    "http://dbpedia.org/resource/California"
+  ],
+  "postsynaptic currents": [
+    "http://dbpedia.org/resource/United_Kingdom"
+  ],
+  "embryo extracts": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "economic commitments": [
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "kinase assay": [
+    "http://dbpedia.org/resource/Serine/threonine-specific_protein_kinase"
+  ],
+  "dorsal horn": [
+    "http://dbpedia.org/resource/Posterior_horn"
+  ],
+  "immune system": [
+    "http://dbpedia.org/resource/HIV/AIDS"
+  ],
+  "LPS": [
+    "http://dbpedia.org/resource/LPS"
+  ],
+  "Pvalb mice": [
+    "http://dbpedia.org/resource/London"
+  ]
+}

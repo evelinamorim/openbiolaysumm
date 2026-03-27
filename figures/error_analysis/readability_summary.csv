@@ -1,0 +1,5 @@
+method,flesch_mean,flesch_std,coleman_liau_mean,coleman_liau_std,dale_chall_mean,dale_chall_std,avg_sentence_len_mean,avg_sentence_len_std,avg_word_len_mean,avg_word_len_std,ttr_mean,ttr_std
+Reference,46.5251,9.5540,12.1637,1.5842,11.2122,0.7348,19.2081,3.0937,5.1802,0.2709,0.6182,0.0405
+BART,50.0102,8.9059,11.1884,1.5573,11.0369,0.7550,20.4627,2.8162,4.9637,0.2635,0.5596,0.0447
+GoldSack,56.7683,9.3248,10.3609,1.5978,10.6805,0.7627,15.3671,3.3663,4.9314,0.2792,0.5459,0.0400
+YAKE+DBPEDIA,53.1362,10.5595,11.0550,1.7257,10.9233,0.7669,17.1386,4.3458,5.0200,0.2900,0.5587,0.0419

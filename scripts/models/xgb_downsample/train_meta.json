@@ -1,0 +1,6 @@
+{
+  "train_size": 7724,
+  "test_size": 1932,
+  "max_features": 50000,
+  "ngram_range": "1,2"
+}

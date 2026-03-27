@@ -1,0 +1,19 @@
+{
+  "model_str":"./models/bart_baseline/Best_epoch",
+  "encoder_max_length": 1024,
+  "decoder_max_length": 256,
+  "batch_size": 4,
+  "is_input_aug": false,
+  "output_dir": "./models/bart_baseline",
+  "lr": 2e-6,
+  "num_epochs": 5,
+  "num_beams": 4,
+  "min_length": 100,
+  "length_penalty": 2.0,
+  "no_repeat_ngram_size": 3,
+  "data_files": {
+    "train": "train_filtered.json",
+    "val":   "val.json",
+    "test":  "test.json"
+  }
+}

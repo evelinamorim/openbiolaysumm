@@ -1,0 +1,658 @@
+{
+  "LFP time-series": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time",
+    "http://dbpedia.org/resource/Russia"
+  ],
+  "lattice structure": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "period distribution": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "active alignment": [
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "RNA synthesis": [
+    "http://de.dbpedia.org/resource/RNA-Synthese"
+  ],
+  "rPT distributions": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "BET factors": [
+    "http://dbpedia.org/resource/United_States"
+  ],
+  "periodic membrane": [
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "structural mode": [
+    "http://dbpedia.org/resource/Structural_model"
+  ],
+  "spindle length": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "gonadal cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "food motivation": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod"
+  ],
+  "BOLD time-series": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "RNA splicing": [
+    "http://de.dbpedia.org/resource/RNA-Splicing"
+  ],
+  "cell divisions": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "wild type": [
+    "http://dbpedia.org/resource/Monsters_in_Dungeons_&_Dragons",
+    "http://dbpedia.org/resource/List_of_Advanced_Dungeons_&_Dragons_2nd_edition_monsters"
+  ],
+  "Integration Model": [
+    "http://dbpedia.org/resource/Spatial_interaction_model"
+  ],
+  "rainfed field": [
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "kisspeptin cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "copy number": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "vocal fold": [
+    "http://dbpedia.org/resource/Contemporary_R&B"
+  ],
+  "mice displayed": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "Van Belleghem": [
+    "http://dbpedia.org/resource/Van_Belleghem",
+    "http://fr.dbpedia.org/resource/Wim_van_Belleghem"
+  ],
+  "Figure": [
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "Thermo Fisher": [
+    "http://de.dbpedia.org/resource/Thermo_Fisher",
+    "http://fr.dbpedia.org/resource/Thermo_Fisher"
+  ],
+  "Representative images": [
+    "http://dbpedia.org/resource/Film"
+  ],
+  "source data": [
+    "http://dbpedia.org/resource/Data_source"
+  ],
+  "t-CyCIF cycles": [
+    "http://dbpedia.org/resource/Life_cycle",
+    "http://dbpedia.org/resource/Iran"
+  ],
+  "food restriction": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Avoidant/restrictive_food_intake_disorder",
+    "http://dbpedia.org/resource/Arthropod"
+  ],
+  "DNA origami": [
+    "http://de.dbpedia.org/resource/DNA-Origami",
+    "http://de.dbpedia.org/resource/DNA_Origami"
+  ],
+  "Passive force": [
+    "http://fr.dbpedia.org/resource/Forme_passive"
+  ],
+  "yellow bar": [
+    "http://dbpedia.org/resource/List_of_Advanced_Dungeons_&_Dragons_2nd_edition_monsters"
+  ],
+  "endothelial cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "human BET": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village"
+  ],
+  "nematic cell": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "wild-type spindle": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "study participants": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "pericyte locations": [
+    "http://dbpedia.org/resource/Iran"
+  ],
+  "cell morphology": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cost function": [
+    "http://dbpedia.org/resource/Cost_function"
+  ],
+  "MreB motion": [
+    "http://dbpedia.org/resource/Film"
+  ],
+  "cell adhesion": [
+    "http://dbpedia.org/resource/Cell_Communication_&_Adhesion"
+  ],
+  "cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Human Norrin": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "EEG power": [
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "yeast cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "periodic structure": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "cell population": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Australia",
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "gene copy": [
+    "http://de.dbpedia.org/resource/Gene_copy_number_variants"
+  ],
+  "SNP pairs": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "sevoflurane general": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "pericyte soma": [
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Canada"
+  ],
+  "female mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "structural measures": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "LFP power": [
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "correlation analysis": [
+    "http://fr.dbpedia.org/resource/Kernel_canonical_correlation_analysis"
+  ],
+  "filament alignment": [
+    "http://dbpedia.org/resource/Devil_(Dungeons_&_Dragons)",
+    "http://dbpedia.org/resource/List_of_Dungeons_&_Dragons_deities"
+  ],
+  "BOLD signal": [
+    "http://de.dbpedia.org/resource/Bold-Signal",
+    "http://fr.dbpedia.org/resource/Signal_BOLD"
+  ],
+  "ligand spacing": [
+    "http://dbpedia.org/resource/Russia",
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "primary keratinocytes": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "round cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "ligand DNA": [
+    "http://dbpedia.org/resource/DNA_ligase_(NAD+)",
+    "http://de.dbpedia.org/resource/DNA-Ligase",
+    "http://de.dbpedia.org/resource/T4-DNA-Ligase",
+    "http://de.dbpedia.org/resource/Taq-DNA-Ligase"
+  ],
+  "tumor cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "nematic order": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "bond half-life": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/Argentina",
+    "http://dbpedia.org/resource/Live_at_the_Royal_Albert_Hall"
+  ],
+  "k-fiber minus-ends": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/Iran",
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Central_European_Time"
+  ],
+  "wing patterns": [
+    "http://dbpedia.org/resource/Defender_(association_football)",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "periodic \u03b2II": [
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "neural plate": [
+    "http://dbpedia.org/resource/Neral"
+  ],
+  "Tonic pain": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "field environments": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "sucrose re-exposure": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/India",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/Iran"
+  ],
+  "receiving general": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "vocal development": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Contemporary_R&B",
+    "http://dbpedia.org/resource/Journal_of_Counseling_&_Development"
+  ],
+  "motor activity": [
+    "http://dbpedia.org/resource/Locomotion"
+  ],
+  "immune cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "wild-type nfsA": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "single cells": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Single_cell"
+  ],
+  "Sigma Aldrich": [
+    "http://de.dbpedia.org/resource/Sigma_Aldrich",
+    "http://fr.dbpedia.org/resource/Sigma-aldrich",
+    "http://fr.dbpedia.org/resource/Sigma-Aldrich_Corporation"
+  ],
+  "infected cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Quantifying food": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod"
+  ],
+  "fission yeast": [
+    "http://dbpedia.org/resource/Join_the_Dots:_B-Sides_&_Rarities_1978\u20132001_(The_Fiction_Years)"
+  ],
+  "food source": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Abs bound": [
+    "http://dbpedia.org/resource/India",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "vocal tract": [
+    "http://dbpedia.org/resource/Contemporary_R&B",
+    "http://fr.dbpedia.org/resource/Tractus_vocal"
+  ],
+  "t-CyCIF image": [
+    "http://dbpedia.org/resource/Iran",
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "contingent parental": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Australia",
+    "http://dbpedia.org/resource/Japan",
+    "http://dbpedia.org/resource/R/K_selection_theory"
+  ],
+  "scale cell": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "designed proteins": [
+    "http://de.dbpedia.org/resource/Designed_Ankyrin_Repeat_Proteins",
+    "http://dbpedia.org/resource/Protein_Engineering_Design_&_Selection"
+  ],
+  "Significant GWAS": [
+    "http://dbpedia.org/resource/English_language"
+  ],
+  "Type III": [
+    "http://dbpedia.org/resource/Type_III"
+  ],
+  "resident population": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Australia"
+  ],
+  "cell size": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Y-axis represents": [
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/World_War_II",
+    "http://dbpedia.org/resource/United_States"
+  ],
+  "KERKO mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "autistic males": [
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "functional MRI": [
+    "http://dbpedia.org/resource/C++"
+  ],
+  "cycle number": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "awake state": [
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/California",
+    "http://dbpedia.org/resource/Italy",
+    "http://dbpedia.org/resource/United_States"
+  ],
+  "length distributions": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "human LINKIN": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "ZIKV infection": [
+    "http://fr.dbpedia.org/resource/Infection_\u00e0_virus_Zika",
+    "http://dbpedia.org/resource/HIV/AIDS"
+  ],
+  "incubation time": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "Yeast BET": [
+    "http://dbpedia.org/resource/United_States"
+  ],
+  "blood flow": [
+    "http://dbpedia.org/resource/Journal_of_Cerebral_Blood_Flow_&_Metabolism"
+  ],
+  "thin filament": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "cue location": [
+    "http://dbpedia.org/resource/Iran"
+  ],
+  "plasma membrane": [
+    "http://dbpedia.org/resource/Plasma_membrane_Ca2+_ATPase"
+  ],
+  "periodic lattice": [
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "NPC structures": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "Norrin": [
+    "http://fr.dbpedia.org/resource/Norrin_Radd"
+  ],
+  "order parameter": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "mutant mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "telomere length": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "donor bond": [
+    "http://dbpedia.org/resource/Dr._No"
+  ],
+  "tangential cell": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "time step": [
+    "http://dbpedia.org/resource/One_Step_at_a_Time",
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "pain escape": [
+    "http://dbpedia.org/resource/Law_&_Order:_Special_Victims_Unit_(season_5)",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "cell area": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/India"
+  ],
+  "Gumbel distribution": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://fr.dbpedia.org/resource/Distribution_De_Gumbel",
+    "http://fr.dbpedia.org/resource/Distribution_de_Gumbel",
+    "http://fr.dbpedia.org/resource/Distribution_de_gumbel"
+  ],
+  "bound genes": [
+    "http://dbpedia.org/resource/India",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "left ventricle": [
+    "http://dbpedia.org/resource/Defender_(association_football)",
+    "http://de.dbpedia.org/resource/Double_outlet_left_ventricle"
+  ],
+  "ATPOS complex": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cells showed": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "invader population": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Poland",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Australia",
+    "http://dbpedia.org/resource/New_York_City"
+  ],
+  "structural features": [
+    "http://dbpedia.org/resource/Contemporary_R&B"
+  ],
+  "mutant cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cancer types": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "Transgenic mice": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "Norrin wild-type": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "cell degranulation": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "field data": [
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "cell rearrangements": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Gel flow": [
+    "http://dbpedia.org/resource/Arthropod"
+  ],
+  "daughter cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "complex beta": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "blood cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "brain structure": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "human RBCs": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "cell shape": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "pellet dispenser": [
+    "http://dbpedia.org/resource/Village"
+  ],
+  "length-dependent increase": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "melpomene melpomene": [
+    "http://dbpedia.org/resource/Melpomene_(disambiguation)"
+  ],
+  "main effect": [
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/Japan"
+  ],
+  "right-skewed distributions": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "Epi neural": [
+    "http://dbpedia.org/resource/List_of_The_Grim_Adventures_of_Billy_&_Mandy_episodes"
+  ],
+  "active transport": [
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)"
+  ],
+  "OFC activity": [
+    "http://dbpedia.org/resource/%22I_AM%22_Activity"
+  ],
+  "field direction": [
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "MCM loading": [
+    "http://dbpedia.org/resource/Heckler_&_Koch_USP"
+  ],
+  "memory length": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "myosin heads": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "HF-fed mice": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Russia",
+    "http://dbpedia.org/resource/Germany",
+    "http://dbpedia.org/resource/London"
+  ],
+  "actin filaments": [
+    "http://dbpedia.org/resource/Arp2/3_complex"
+  ],
+  "cell elongation": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "study arms": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "parental feedback": [
+    "http://dbpedia.org/resource/R/K_selection_theory"
+  ],
+  "PWR": [
+    "http://dbpedia.org/resource/PWR"
+  ],
+  "anesthetic states": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Canada",
+    "http://dbpedia.org/resource/New_York_City"
+  ],
+  "re-exposure session": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/India",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/Iran"
+  ],
+  "irrigated field": [
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "Mali plasma": [
+    "http://dbpedia.org/resource/Ivory_Coast"
+  ],
+  "simulated BOLD": [
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "circadian period": [
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "control mice": [
+    "http://dbpedia.org/resource/Dimitri_Vegas_&_Like_Mike_discography"
+  ],
+  "cell polarity": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "SNPs significant": [
+    "http://dbpedia.org/resource/English_language"
+  ],
+  "NfsA variants": [
+    "http://dbpedia.org/resource/Heckler_&_Koch_MP5"
+  ],
+  "treated cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "GWAS regions": [
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/China",
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/California"
+  ],
+  "cell width": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Significant SNPs": [
+    "http://dbpedia.org/resource/English_language"
+  ],
+  "hybrid zone": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "active genes": [
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "food intake": [
+    "http://dbpedia.org/resource/Avoidant/restrictive_food_intake_disorder",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod"
+  ]
+}

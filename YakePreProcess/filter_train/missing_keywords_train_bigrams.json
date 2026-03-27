@@ -1,0 +1,492 @@
+[
+    {
+        "id": "elife-20782-v2",
+        "title": "Vocal development in a Waddington landscape",
+        "dbpedia": {
+            "air pressure": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "cost function": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "parental feedback": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "vocal": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-68311-v3",
+        "title": "Tight nanoscale clustering of Fcγ receptors using DNA origami promotes phagocytosis",
+        "dbpedia": {
+            "Figure": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "origami beads": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "origami pegboards": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-16695-v3",
+        "title": "A Cryptochrome 2 mutation yields advanced sleep phase in humans",
+        "dbpedia": {
+            "Santa Cruz": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-57964-v3",
+        "title": "Self-organized patterning of cell morphology via mechanosensitive feedback",
+        "dbpedia": {
+            "tangential cell": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-39780-v1",
+        "title": "Endothelial-specific FoxO1 depletion prevents obesity-related disorders by increasing vascular metabolism and growth",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-27406-v1",
+        "title": "Histone H3G34R mutation causes replication stress, homologous recombination defects and genomic instability in S. pombe",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-11012-v2",
+        "title": "Precise assembly of complex beta sheet topologies from de novo designed building blocks",
+        "dbpedia": {
+            "crystal structure": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-02504-v1",
+        "title": "Genome-wide mapping in a house mouse hybrid zone reveals hybrid sterility loci and Dobzhansky-Muller interactions",
+        "dbpedia": {
+            "hybrid zone": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-24081-v2",
+        "title": "Distinct contributions of the thin and thick filaments to length-dependent activation in heart muscle",
+        "dbpedia": {
+            "maximum force": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-03977-v3",
+        "title": "Reliable cell cycle commitment in budding yeast is ensured by signal integration",
+        "dbpedia": {
+            "Start transition": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-30212-v1",
+        "title": "Evolutionary dynamics of incubation periods",
+        "dbpedia": {
+            "Gumbel distribution": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "resident population": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "right-skewed distributions": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-17214-v1",
+        "title": "POWERDRESS interacts with HISTONE DEACETYLASE 9 to promote aging in Arabidopsis",
+        "dbpedia": {
+            "PWR": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "Y-axis represents": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-39023-v1",
+        "title": "Fragile X mental retardation protein is a Zika virus restriction factor that is antagonized by subgenomic flaviviral RNA",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-06554-v1",
+        "title": "Structure and functional properties of Norrin mimic Wnt for signalling with Frizzled4, Lrp5/6, and proteoglycan",
+        "dbpedia": {
+            "Norrin crystal": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-21697-v2",
+        "title": "Loss of Dnmt3a and Dnmt3b does not affect epidermal homeostasis but promotes squamous transformation through PPAR-γ",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-07004-v2",
+        "title": "MicroRNA-203 represses selection and expansion of oncogenic Hras transformed tumor initiating cells",
+        "dbpedia": {
+            "Figure": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "Thermo Fisher": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "data set": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "data sets": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-29280-v2",
+        "title": "Capillary pericytes mediate coronary no-reflow after myocardial ischaemia",
+        "dbpedia": {
+            "Figure": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-36806-v1",
+        "title": "NK cells inhibit Plasmodium falciparum growth in red blood cells via antibody-dependent cellular cytotoxicity",
+        "dbpedia": {
+            "Mali plasma": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-68549-v1",
+        "title": "Cortex cis-regulatory switches establish scale colour identity and pattern diversity in Heliconius",
+        "dbpedia": {
+            "Type III": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "Van Belleghem": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "melpomene melpomene": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "wing patterns": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "yellow bar": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-35988-v2",
+        "title": "Orbital frontal cortex updates state-induced value change for decision-making",
+        "dbpedia": {
+            "sucrose re-exposure": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-31949-v3",
+        "title": "The control of tonic pain by active relief learning",
+        "dbpedia": {
+            "learning experiment": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "relief learning": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-45056-v2",
+        "title": "Global donor and acceptor splicing site kinetics in human cells",
+        "dbpedia": {
+            "donor bond": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-22911-v3",
+        "title": "27 T ultra-high static magnetic field changes orientation and morphology of mitotic spindles in human cells",
+        "dbpedia": {
+            "Figure": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-29328-v1",
+        "title": "NuMA recruits dynein activity to microtubule minus-ends at mitosis",
+        "dbpedia": {
+            "k-fiber minus-ends": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-17807-v3",
+        "title": "Cortical flow aligns actin filaments to form a furrow",
+        "dbpedia": {
+            "active alignment": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "nematic order": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "order parameter": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-08490-v3",
+        "title": "Viral dark matter and virus–host interactions resolved from publicly available microbial genomes",
+        "dbpedia": {
+            "data set": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-05795-v1",
+        "title": "Cdc6 ATPase activity disengages Cdc6 from the pre-replicative complex to promote DNA replication",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-69619-v2",
+        "title": "BET family members Bdf1/2 modulate global transcription initiation and elongation in Saccharomyces cerevisiae",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-32471-v3",
+        "title": "MreB filaments align along greatest principal membrane curvature to orient cell wall synthesis",
+        "dbpedia": {
+            "Figure": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-08411-v2",
+        "title": "Multiple abiotic stimuli are integrated in the regulation of rice gene expression under field conditions",
+        "dbpedia": {
+            "dry season": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "irrigated field": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "wet season": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-04581-v2",
+        "title": "Developmental mechanism of the periodic membrane skeleton in axons",
+        "dbpedia": {
+            "periodic lattice": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-10607-v4",
+        "title": "PHF13 is a molecular reader and transcriptional co-regulator of H3K4me2/3",
+        "dbpedia": {
+            "Figure": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-08687-v2",
+        "title": "Reconstructing the in vivo dynamics of hematopoietic stem cells from telomere length distributions",
+        "dbpedia": {
+            "length distributions": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-03398-v2",
+        "title": "Mechanical design principles of a mitotic spindle",
+        "dbpedia": {
+            "critical force": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-46359-v2",
+        "title": "Voluntary and involuntary contributions to perceptually guided saccadic choices resolved with millisecond precision",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "tachometric curve": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-43999-v2",
+        "title": "Genetic dissection of the different roles of hypothalamic kisspeptin neurons in regulating female reproduction",
+        "dbpedia": {
+            "figure supplement": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    },
+    {
+        "id": "elife-66173-v2",
+        "title": "An open-source device for measuring food intake and operant behavior in rodent home-cages",
+        "dbpedia": {
+            "Figure": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "food motivation": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "food source": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "operant behavior": {
+                "link": "",
+                "description": "no abstract available"
+            },
+            "pellet dispenser": {
+                "link": "",
+                "description": "no abstract available"
+            }
+        }
+    }
+]

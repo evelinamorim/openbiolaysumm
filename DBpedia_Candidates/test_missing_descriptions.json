@@ -1,0 +1,560 @@
+{
+  "DIX domain": [
+    "http://dbpedia.org/resource/Iran_Standard_Time"
+  ],
+  "spinal cord": [
+    "http://dbpedia.org/resource/Sulcus_of_spinal_cord"
+  ],
+  "theta range": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Vector Core": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "one-way ANOVA": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/Forward_(association_football)",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/Russia"
+  ],
+  "left eyelid": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "food-related presystemic": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/English_language",
+    "http://dbpedia.org/resource/Arthropod"
+  ],
+  "non-proteinogenic amino": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "commitment size": [
+    "http://dbpedia.org/resource/List_of_Will_&_Grace_episodes"
+  ],
+  "time window": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "neck region": [
+    "http://dbpedia.org/resource/California"
+  ],
+  "purified DIX": [
+    "http://dbpedia.org/resource/Iran_Standard_Time"
+  ],
+  "infected mice": [
+    "http://dbpedia.org/resource/London",
+    "http://fr.dbpedia.org/resource/Mine_(insecte)"
+  ],
+  "mossy fiber": [
+    "http://dbpedia.org/resource/Mossy_fiber"
+  ],
+  "ZRS": [
+    "http://dbpedia.org/resource/ZRS",
+    "http://de.dbpedia.org/resource/ZRS",
+    "http://fr.dbpedia.org/resource/ZRS",
+    "http://de.dbpedia.org/resource/ZRS-4",
+    "http://de.dbpedia.org/resource/ZRS-5",
+    "http://de.dbpedia.org/resource/USS_Akron_(ZRS-4)"
+  ],
+  "MEF cells": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Journal_of_Stem_Cells_&_Regenerative_Medicine"
+  ],
+  "long bones": [
+    "http://dbpedia.org/resource/Bones_+_Longing"
+  ],
+  "mice show": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "active zone": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time",
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)"
+  ],
+  "TED proteins": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "wild-type cells": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "excess sphingosine": [
+    "http://dbpedia.org/resource/Beetle",
+    "http://dbpedia.org/resource/Spain"
+  ],
+  "Wilcoxon signed-rank": [
+    "http://de.dbpedia.org/resource/Wilcoxon_signed_ranks_test"
+  ],
+  "starved animals": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "Ozala National": [
+    "http://dbpedia.org/resource/Canada"
+  ],
+  "DPM cell": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cells treated": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "type pheS": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "male sleep": [
+    "http://dbpedia.org/resource/Snow_(Angus_&_Julia_Stone_album)"
+  ],
+  "GWL": [
+    "http://dbpedia.org/resource/GWL",
+    "http://de.dbpedia.org/resource/GWL",
+    "http://de.dbpedia.org/resource/Gwl",
+    "http://fr.dbpedia.org/resource/GWL"
+  ],
+  "Internal thioesters": [
+    "http://dbpedia.org/resource/France"
+  ],
+  "CaM complexes": [
+    "http://dbpedia.org/resource/List_of_The_Grim_Adventures_of_Billy_&_Mandy_episodes"
+  ],
+  "TINs": [
+    "http://dbpedia.org/resource/TIN",
+    "http://dbpedia.org/resource/Ike_&_Tina_Turner",
+    "http://dbpedia.org/resource/Tin_(disambiguation)"
+  ],
+  "AKT inhibitor": [
+    "http://de.dbpedia.org/resource/Plasminogen-Aktivator-Inhibitor"
+  ],
+  "RNAP channel": [
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/England"
+  ],
+  "SPT": [
+    "http://dbpedia.org/resource/SPT"
+  ],
+  "lung cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "MLL complex": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "time points": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "metastatic cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cell size": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cells incubated": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "total cell": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/Australia"
+  ],
+  "TED structures": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "N-terminal fragment": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/India",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/United_Kingdom"
+  ],
+  "eye velocity": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "shared structure": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/India"
+  ],
+  "Scale bar": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "Human GCNA": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Village",
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "Average number": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "angle GLM": [
+    "http://dbpedia.org/resource/English_language"
+  ],
+  "meiotic cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "deep sequencing": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://de.dbpedia.org/resource/Deep_Sequencing"
+  ],
+  "Salmonella cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "XPD": [
+    "http://dbpedia.org/resource/XPD_(disambiguation)",
+    "http://de.dbpedia.org/resource/TFIIH-Helikase_XPD"
+  ],
+  "plasma membrane": [
+    "http://dbpedia.org/resource/Plasma_membrane_Ca2+_ATPase"
+  ],
+  "bound fraction": [
+    "http://dbpedia.org/resource/India",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "syt": [
+    "http://de.dbpedia.org/resource/Syt_willekomen",
+    "http://de.dbpedia.org/resource/Syt_willekomen,_heirre_kirst"
+  ],
+  "TED Gln": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Canada"
+  ],
+  "input modulation": [
+    "http://dbpedia.org/resource/C_file_input/output"
+  ],
+  "position drift": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "mineralisation front": [
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "RNAP active": [
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "LGN": [
+    "http://de.dbpedia.org/resource/LGN"
+  ],
+  "limb bud": [
+    "http://dbpedia.org/resource/LBH"
+  ],
+  "recovery time": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time"
+  ],
+  "dense projection": [
+    "http://dbpedia.org/resource/California"
+  ],
+  "Western blotting": [
+    "http://dbpedia.org/resource/Iran",
+    "http://dbpedia.org/resource/France",
+    "http://dbpedia.org/resource/Germany",
+    "http://dbpedia.org/resource/Italy"
+  ],
+  "LTM formation": [
+    "http://dbpedia.org/resource/Forward_(association_football)",
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "septa formation": [
+    "http://dbpedia.org/resource/Forward_(association_football)",
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "AKT phosphorylation": [
+    "http://dbpedia.org/resource/PI3K/AKT/mTOR_pathway",
+    "http://dbpedia.org/resource/Akt/PKB_signaling_pathway"
+  ],
+  "eye movements": [
+    "http://dbpedia.org/resource/Rapid_eye_movement"
+  ],
+  "optic nerves": [
+    "http://dbpedia.org/resource/Optic_Nerve"
+  ],
+  "germ cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "reservoir species": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "active complex": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "mother cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Thermo Fisher": [
+    "http://de.dbpedia.org/resource/Thermo_Fisher",
+    "http://fr.dbpedia.org/resource/Thermo_Fisher"
+  ],
+  "DLI cases": [
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "United States": [
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/United_Kingdom",
+    "http://dbpedia.org/resource/California"
+  ],
+  "Spot-On": [
+    "http://dbpedia.org/resource/On_the_Spot"
+  ],
+  "ADRs observed": [
+    "http://dbpedia.org/resource/Central_European_Summer_Time",
+    "http://dbpedia.org/resource/Indian_Standard_Time",
+    "http://dbpedia.org/resource/Iran_Standard_Time"
+  ],
+  "LTM": [
+    "http://dbpedia.org/resource/LTM"
+  ],
+  "parasite species": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "animal Ebola": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "epithelial cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Eco RNAP": [
+    "http://dbpedia.org/resource/Indian_Standard_Time",
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "SON-projecting MnPO": [
+    "http://dbpedia.org/resource/Tripoli"
+  ],
+  "DIX filaments": [
+    "http://dbpedia.org/resource/Iran_Standard_Time"
+  ],
+  "endochondral ossification": [
+    "http://fr.dbpedia.org/resource/Ossification_endochondrale"
+  ],
+  "Tukey test": [
+    "http://dbpedia.org/resource/Tukey's_test"
+  ],
+  "Sexual interactions": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cell death": [
+    "http://dbpedia.org/resource/Cell_Death_&_Differentiation"
+  ],
+  "young males": [
+    "http://de.dbpedia.org/resource/Edward_Young_(Maler)",
+    "http://de.dbpedia.org/resource/Peter_Young_(Maler)"
+  ],
+  "within-host diversity": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "Figure": [
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "ccRCC cell": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "head coil": [
+    "http://dbpedia.org/resource/Insect",
+    "http://dbpedia.org/resource/London"
+  ],
+  "Axin DAX": [
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Axis_&_Allies:_D-Day",
+    "http://dbpedia.org/resource/World_War_II",
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)"
+  ],
+  "mock-transfected cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "cases diagnosed": [
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "DIX oligomer": [
+    "http://dbpedia.org/resource/Iran_Standard_Time"
+  ],
+  "striatal TINs": [
+    "http://dbpedia.org/resource/Chase_&_Sanborn_Coffee_Company"
+  ],
+  "untreated cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "GWL kinase": [
+    "http://dbpedia.org/resource/Serine/threonine-specific_protein_kinase"
+  ],
+  "size control": [
+    "http://dbpedia.org/resource/ANSI_escape_code"
+  ],
+  "whisker angle": [
+    "http://dbpedia.org/resource/English_language"
+  ],
+  "Time constant": [
+    "http://dbpedia.org/resource/Iran_Standard_Time",
+    "http://dbpedia.org/resource/Central_European_Time",
+    "http://dbpedia.org/resource/Central_European_Summer_Time"
+  ],
+  "male brain": [
+    "http://de.dbpedia.org/resource/Extreme_Male_Brain_Theory"
+  ],
+  "stimulus onset": [
+    "http://de.dbpedia.org/resource/Stimulus_Onset-Asynchrony"
+  ],
+  "coli strain": [
+    "http://dbpedia.org/resource/Spain"
+  ],
+  "downstream gene": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "index cases": [
+    "http://dbpedia.org/resource/Beetle"
+  ],
+  "video-based eye": [
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "modulation frequencies": [
+    "http://fr.dbpedia.org/resource/Modulation_de_frequence",
+    "http://fr.dbpedia.org/resource/Modulation_par_deplacement_de_frequence"
+  ],
+  "cancer cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "UPRT gene": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Forward_(association_football)"
+  ],
+  "top panel": [
+    "http://dbpedia.org/resource/R&R_(magazine)"
+  ],
+  "primary whisker": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "species distribution": [
+    "http://dbpedia.org/resource/Lepidoptera",
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "HMG box": [
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "DNA-binding domain": [
+    "http://fr.dbpedia.org/resource/DNA_Binding_Domain"
+  ],
+  "adherens junctions": [
+    "http://de.dbpedia.org/resource/Adherens_junctions",
+    "http://de.dbpedia.org/resource/Adherens_Junction",
+    "http://de.dbpedia.org/resource/Adhering_junctions",
+    "http://de.dbpedia.org/resource/Adhering_Junction",
+    "http://de.dbpedia.org/resource/Adhering_junction"
+  ],
+  "cell proliferation": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "interaction domain": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "GCNA": [
+    "http://dbpedia.org/resource/GCNA",
+    "http://dbpedia.org/resource/GCN"
+  ],
+  "mice": [
+    "http://dbpedia.org/resource/Of_Mice_&_Men_(band)",
+    "http://dbpedia.org/resource/Bats_&_Mice"
+  ],
+  "Dvl DIX": [
+    "http://dbpedia.org/resource/Iran_Standard_Time"
+  ],
+  "DPM": [
+    "http://dbpedia.org/resource/DPM"
+  ],
+  "mutant embryo": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "source data": [
+    "http://dbpedia.org/resource/Data_source"
+  ],
+  "Bar graphs": [
+    "http://dbpedia.org/resource/List_of_Advanced_Dungeons_&_Dragons_2nd_edition_monsters"
+  ],
+  "active site": [
+    "http://dbpedia.org/resource/Democratic_Party_(United_States)",
+    "http://dbpedia.org/resource/Politician"
+  ],
+  "DENV infection": [
+    "http://dbpedia.org/resource/HIV/AIDS"
+  ],
+  "mice compared": [
+    "http://dbpedia.org/resource/London"
+  ],
+  "wild type": [
+    "http://dbpedia.org/resource/Monsters_in_Dungeons_&_Dragons",
+    "http://dbpedia.org/resource/List_of_Advanced_Dungeons_&_Dragons_2nd_edition_monsters"
+  ],
+  "globuli ossei": [
+    "http://dbpedia.org/resource/English_language",
+    "http://dbpedia.org/resource/World_War_II"
+  ],
+  "Eye position": [
+    "http://dbpedia.org/resource/Midfielder",
+    "http://dbpedia.org/resource/Forward_(association_football)",
+    "http://dbpedia.org/resource/Law_&_Order:_Criminal_Intent_(season_4)",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "cells knocked": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "Chlamydomonas cells": [
+    "http://dbpedia.org/resource/Animal"
+  ],
+  "XPD helicase": [
+    "http://de.dbpedia.org/resource/TFIIH-Helikase_XPD",
+    "http://de.dbpedia.org/resource/TFIIH-Helikase_XPB"
+  ],
+  "alveolar type": [
+    "http://dbpedia.org/resource/Defender_(association_football)"
+  ],
+  "O-LM cells": [
+    "http://dbpedia.org/resource/Animal",
+    "http://dbpedia.org/resource/United_States",
+    "http://dbpedia.org/resource/Arthropod",
+    "http://dbpedia.org/resource/Insect"
+  ],
+  "DIX sample": [
+    "http://dbpedia.org/resource/Iran_Standard_Time"
+  ],
+  "bond formation": [
+    "http://dbpedia.org/resource/Forward_(association_football)",
+    "http://dbpedia.org/resource/Midfielder"
+  ],
+  "Scale bars": [
+    "http://dbpedia.org/resource/Lepidoptera"
+  ],
+  "BDQ": [
+    "http://dbpedia.org/resource/BDQ",
+    "http://fr.dbpedia.org/resource/BDQ",
+    "http://fr.dbpedia.org/resource/Bdq"
+  ]
+}
