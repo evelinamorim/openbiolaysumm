@@ -1,6 +1,6 @@
 import os
 import json
-from utils import get_processed_elife_data as _get_processed_elife_data
+from .utils import get_processed_elife_data as _get_processed_elife_data
 
 def get_processed_elife_data(*args, **kwargs):
     return _get_processed_elife_data(*args, **kwargs)
