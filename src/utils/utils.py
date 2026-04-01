@@ -12,11 +12,9 @@ def load_train_config(config_path):
         config = json.loads(f.read())
     return config
 
-def load_dataset(ds, split):
-    if split == "train":
-        fp = "train_filtered.json"
-    else:
-        fp = f"{split}.json"
+def load_dataset(config, split):
+
+    fp = f"{config["data_files"][split]}.json"
     with open(fp, "r") as f:
         data = json.loads(f.read())
 
@@ -106,7 +104,7 @@ def get_processed_elife_data(ds, tokenizer, config, split, shuffle=False):
 
         return batch
 
-    data = load_dataset(ds, split)
+    data = load_dataset(config, split)
 
     data = [{"idx": i, **x} for i, x in enumerate(data)]
 
