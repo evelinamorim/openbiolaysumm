@@ -526,10 +526,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Using DBpedia for Concept Graphs](docs/dbpedia_guide.md) *(coming soon)*
 - [Adapting to New Datasets](docs/new_datasets.md) *(coming soon)*
 
----
 
-**Last Updated:** March 2026  
-**Repository:** https://github.com/your-org/OpenBioLaySumm  
 <!--**Paper:** [Link to CL4Health 2026 proceedings]-->
 
 ---
