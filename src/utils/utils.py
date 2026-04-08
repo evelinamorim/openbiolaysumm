@@ -14,7 +14,7 @@ def load_train_config(config_path):
 
 def load_dataset(config, split):
 
-    fp = f"{config["data_files"][split]}.json"
+    fp = f"{config['data_files'][split]}.json"
     with open(fp, "r") as f:
         data = json.loads(f.read())
 
