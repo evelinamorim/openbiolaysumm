@@ -13,15 +13,24 @@ def load_train_config(config_path):
     return config
 
 def load_dataset(config, split):
-
-    fp = f"{config['data_files'][split]}"
-    with open(fp, "r") as f:
-        data = json.loads(f.read())
-
-    data = [dict(id=inst['id'], 
-            article=" ".join(inst['abstract'])+"\n"+"\n".join([" ".join(s) for s in inst['sections']]), 
-            summary=" ".join(inst['summary'])) for inst in data]
-    return data        
+    json_file = config['data_files'][split]
+    
+    with open(json_file, 'r', encoding='utf-8') as f:
+        first_char = f.read(1)
+        f.seek(0)
+        
+        if first_char == '[':
+            # JSON array format 
+            data = json.load(f)
+        else:
+            # JSONL format 
+            data = []
+            for line in f:
+                line = line.strip()
+                if line:
+                    data.append(json.loads(line))
+    
+    return data
 
 
 def load_dataset_abstract(ds, split):
