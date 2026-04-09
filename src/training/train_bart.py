@@ -14,7 +14,7 @@ config_path = sys.argv[1]
 config = load_train_config(config_path)
 os.makedirs(config['output_dir'], exist_ok=True)
 
-ds = "../../DSplit"
+ds = "checkpoints"
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 accelerator = Accelerator(mixed_precision="fp16")  # use fp16 to reduce GPU memory
 
@@ -137,11 +137,19 @@ for epoch in range(config['num_epochs']):
     print(f"Epoch {epoch} metric result: {result}")
 
     # save every epoch (overwrite previous epoch folder on rerun)
-    save_dir = f"{config['output_dir']}/{ds}_epoch_{epoch}"
-    print(f"Saving model and tokenizer to {save_dir}")
-    os.makedirs(save_dir, exist_ok=True)
-    accelerator.unwrap_model(model).save_pretrained(save_dir)
-    tokenizer.save_pretrained(save_dir)
-    update_config(save_dir, config)
+    if result['rougeL'] > best_rougeL:
+        best_rougeL = result['rougeL']
+        save_dir = f"{config['output_dir']}/best_model"
+        print(f"New best model! Saving to {save_dir}")
+        os.makedirs(save_dir, exist_ok=True)
+        accelerator.unwrap_model(model).save_pretrained(save_dir)
+        tokenizer.save_pretrained(save_dir)
+        update_config(save_dir, config)
+        
+        # Also save current epoch for recovery
+        checkpoint_dir = f"{config['output_dir']}/checkpoint_epoch_{epoch}"
+        os.makedirs(checkpoint_dir, exist_ok=True)
+        accelerator.unwrap_model(model).save_pretrained(checkpoint_dir)
+        tokenizer.save_pretrained(checkpoint_dir)
 
 print("Done.")
