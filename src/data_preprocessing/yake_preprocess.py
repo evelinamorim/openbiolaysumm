@@ -1,211 +1,192 @@
+"""
+yake_preprocess.py
+------------------
+Stage 1 of the YAKE+BART pipeline. Runs on the LOGIN NODE (internet required).
+
+For each article:
+  1. YAKE extracts keyword candidates from the article body
+  2. Each keyword is looked up in DBpedia
+  3. Keywords that return a DBpedia result are kept, along with their description
+
+Output files (written to --output-folder):
+  processed_<name>_keywords.json  — all YAKE keywords per article (before DBpedia filter)
+  processed_<name>_bigrams.json   — articles with DBpedia-confirmed keywords + descriptions
+
+Usage:
+    python yake_preprocess.py <start_id> <end_id> --input-file <path/to/elife.json>
+
+The script supports resuming: already-processed article IDs are skipped if the
+output files already exist.
+"""
+
 import os
-import json
 import sys
+import json
 import argparse
 import yake
 import requests
 
-OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
-OLLAMA_MODEL = "deepseek-r1:7b"
 
 # ---------------------------------------------------------------------------
 # Keyword extraction
 # ---------------------------------------------------------------------------
 
 def extract_keywords(text, num_terms=10, dedupLim=0.9):
-    keyword_extractor = yake.KeywordExtractor(top=num_terms, n=2, dedupLim=dedupLim)
-    keywords = [kw[0] for kw in keyword_extractor.extract_keywords(text)]
-    return keywords
+    extractor = yake.KeywordExtractor(top=num_terms, n=2, dedupLim=dedupLim)
+    return [kw[0] for kw in extractor.extract_keywords(text)]
+
 
 # ---------------------------------------------------------------------------
-# DBpedia lookup
+# DBpedia
 # ---------------------------------------------------------------------------
 
 def search_dbpedia(keyword):
+    """Look up a keyword in DBpedia. Returns (resource_url, description) or (None, None)."""
     lookup_url = f"http://lookup.dbpedia.org/api/search?query={keyword}&format=JSON"
-    headers = {"Accept": "application/json"}
     try:
-        response = requests.get(lookup_url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            results = response.json().get("docs", [])
-            if not results:
-                print(f"No results found in DBpedia for '{keyword}'.")
-                return None, None
-            first_result = results[0]
-            main_url = first_result.get("resource", [None])[0]
-            if not main_url:
-                print("No valid DBpedia resource found.")
-                return None, None
-            print(f"First result URL: {main_url}")
-            full_description = fetch_dbpedia_description(main_url)
-            return main_url, full_description
-        print(f"No relevant DBpedia link found for '{keyword}' (HTTP {response.status_code}).")
-        return None, None
+        response = requests.get(lookup_url, headers={"Accept": "application/json"}, timeout=10)
+        if response.status_code != 200:
+            print(f"  DBpedia lookup failed for '{keyword}' (HTTP {response.status_code}).")
+            return None, None
+
+        results = response.json().get("docs", [])
+        if not results:
+            print(f"  No DBpedia results for '{keyword}'.")
+            return None, None
+
+        main_url = results[0].get("resource", [None])[0]
+        if not main_url:
+            return None, None
+
+        description = fetch_dbpedia_description(main_url)
+        return main_url, description
+
     except requests.exceptions.RequestException as e:
-        print(f"Error querying DBpedia for '{keyword}': {e}")
+        print(f"  Error querying DBpedia for '{keyword}': {e}")
         return None, None
 
 
 def fetch_dbpedia_description(resource_url):
+    """Fetch the English abstract for a DBpedia resource URL."""
     resource_name = resource_url.split("/")[-1]
-    dbpedia_api_url = f"http://dbpedia.org/data/{resource_name}.json"
+    api_url = f"http://dbpedia.org/data/{resource_name}.json"
     try:
-        response = requests.get(dbpedia_api_url, timeout=10)
+        response = requests.get(api_url, timeout=10)
         if response.status_code == 200:
             data = response.json()
-            entity_data = data.get(f"http://dbpedia.org/resource/{resource_name}", {})
-            abstracts = entity_data.get("http://dbpedia.org/ontology/abstract", [])
-            for abstract in abstracts:
+            entity = data.get(f"http://dbpedia.org/resource/{resource_name}", {})
+            for abstract in entity.get("http://dbpedia.org/ontology/abstract", []):
                 if abstract.get("lang") == "en":
                     return abstract.get("value", "No abstract available")
         return "No abstract available"
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching description for '{resource_url}': {e}")
+        print(f"  Error fetching description for '{resource_url}': {e}")
         return "No abstract available"
 
+
 # ---------------------------------------------------------------------------
-# Ollama / biomedical classification
+# Helpers
 # ---------------------------------------------------------------------------
 
-def query_ollama(keyword):
-    try:
-        response = requests.post(
-            OLLAMA_API_URL,
-            headers={"Content-Type": "application/json"},
-            json={
-                "model": OLLAMA_MODEL,
-                "prompt": (
-                    f"Classify if the following term is related to the biomedical/biological domain: "
-                    f"{keyword}. Answer 'yes' if it is related to biomedical/biological, 'no' if not."
-                ),
-            },
-            stream=True,
-            timeout=60,
-        )
-
-        if response.status_code != 200:
-            print(f"Error: Received status code {response.status_code} from Ollama.")
-            return None
-
-        full_response = ""
-        for chunk in response.iter_lines():
-            if chunk:
-                try:
-                    json_chunk = json.loads(chunk.decode("utf-8"))
-                    full_response += json_chunk.get("response", "")
-                except json.JSONDecodeError:
-                    print("Error decoding chunk from Ollama.")
-
-        print(f"Ollama response for '{keyword}': {full_response.strip()}")
-        print("=" * 50)
-        return full_response.strip()
-    except requests.exceptions.RequestException as e:
-        print(f"\nError querying Ollama: {e}")
-        return None
+def load_existing(path):
+    """Load a JSON list from path, returning an empty list on missing/corrupt file."""
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            pass
+    return []
 
 
-def is_biomedical_keyword(keyword):
-    result = query_ollama(keyword)
-    if result:
-        return "yes" in result.lower()
-    return False
+def save_json(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
 
 # ---------------------------------------------------------------------------
 # Main processing
 # ---------------------------------------------------------------------------
 
-def process_elife_file(file_path, output_folder, start_id, end_id, skip_dbpedia=False):
-    print(f"Processing file: {file_path} (Articles {start_id} to {end_id})")
+def process_elife_file(file_path, output_folder, start_id, end_id):
+    print(f"Processing: {file_path}  (articles {start_id}–{end_id})")
 
-    with open(file_path, "r", encoding="utf-8") as file:
-        data = json.load(file)
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
     if not isinstance(data, list):
-        print(f"Skipping {file_path}: JSON structure is not a list of articles.")
+        print("Skipping: JSON is not a list of articles.")
         return
 
-    total_articles = len(data)
     start_id = max(1, start_id)
-    end_id = min(end_id, total_articles)
-    contador = 0
+    end_id = min(end_id, len(data))
 
-    base_filename = os.path.basename(file_path).replace(".json", "")
-    output_filename = os.path.join(output_folder, f"processed_{base_filename}_bigrams.json")
-    output_filename_keywords = os.path.join(output_folder, f"processed_{base_filename}_keywords.json")
+    base = os.path.basename(file_path).replace(".json", "")
+    keywords_path = os.path.join(output_folder, f"processed_{base}_keywords.json")
+    bigrams_path  = os.path.join(output_folder, f"processed_{base}_bigrams.json")
 
-    # Load existing data if files already exist (resume support)
-    all_bigrams = []
-    if os.path.exists(output_filename):
-        with open(output_filename, "r", encoding="utf-8") as f:
-            try:
-                all_bigrams = json.load(f)
-            except json.JSONDecodeError:
-                all_bigrams = []
+    all_keywords = load_existing(keywords_path)
+    all_bigrams  = load_existing(bigrams_path)
 
-    all_keywords = []
-    if os.path.exists(output_filename_keywords):
-        with open(output_filename_keywords, "r", encoding="utf-8") as f:
-            try:
-                all_keywords = json.load(f)
-            except json.JSONDecodeError:
-                all_keywords = []
+    # Build sets of already-processed IDs for resume support
+    done_keywords = {e["id"] for e in all_keywords}
+    done_bigrams  = {e["id"] for e in all_bigrams}
 
+    processed = 0
     for index, article in enumerate(data[start_id - 1:end_id], start=start_id):
         if not isinstance(article, dict) or "sections" not in article:
             continue
 
+        article_id = article.get("id", f"idx_{index}")
+        title      = article.get("title", "Untitled")
+
         content = " ".join(
-            " ".join(section) for section in article["sections"] if isinstance(section, list)
+            " ".join(section)
+            for section in article["sections"]
+            if isinstance(section, list)
         ).strip()
         if not content:
             continue
 
-        print(f"\n[Article {index}] Extracting keywords...")
-        keywords = extract_keywords(content)
-        print(f"Extracted keywords: {keywords}")
+        print(f"\n[{index}/{end_id}] {title}")
 
-        processed_keywords_entry = {
-            "id": article.get("id", "unknown"),
-            "title": article.get("title", "Untitled"),
-            "keywords": keywords,
-        }
-        all_keywords.append(processed_keywords_entry)
-        with open(output_filename_keywords, "w", encoding="utf-8") as f:
-            json.dump(all_keywords, f, ensure_ascii=False, indent=4)
-
-        relevant_keywords = [kw for kw in keywords if is_biomedical_keyword(kw)]
-        print(f"Filtered biomedical keywords: {relevant_keywords}")
-
-        contador += 1
-        print(f"Processed articles count: {contador}")
-
-        if skip_dbpedia:
-            # Save biomedical keywords only — DBpedia enrichment deferred to dbpedia_enrich.py
-            processed_entry = {
-                "id": article.get("id", "unknown"),
-                "title": article.get("title", "Untitled"),
-                "biomedical_keywords": relevant_keywords,
-                "dbpedia": {},
-            }
+        # --- Stage 1a: YAKE keyword extraction ---
+        if article_id not in done_keywords:
+            keywords = extract_keywords(content)
+            print(f"  YAKE keywords: {keywords}")
+            all_keywords.append({"id": article_id, "title": title, "keywords": keywords})
+            save_json(keywords_path, all_keywords)
+            done_keywords.add(article_id)
         else:
-            dbpedia_results = {}
-            for kw in relevant_keywords:
-                link, description = search_dbpedia(kw)
-                if link:
-                    dbpedia_results[kw] = {"link": link, "description": description}
-            print("DBpedia lookup complete for this article.")
-            processed_entry = {
-                "id": article.get("id", "unknown"),
-                "title": article.get("title", "Untitled"),
-                "biomedical_keywords": relevant_keywords,
-                "dbpedia": dbpedia_results,
-            }
+            keywords = next(e["keywords"] for e in all_keywords if e["id"] == article_id)
+            print(f"  YAKE keywords (cached): {keywords}")
 
-        all_bigrams.append(processed_entry)
-        with open(output_filename, "w", encoding="utf-8") as f:
-            json.dump(all_bigrams, f, ensure_ascii=False, indent=4)
+        # --- Stage 1b: DBpedia lookup ---
+        if article_id in done_bigrams:
+            print("  DBpedia already done, skipping.")
+            continue
 
-    print(f"\nDone. Results saved to:\n  {output_filename}\n  {output_filename_keywords}")
+        dbpedia_results = {}
+        for kw in keywords:
+            link, description = search_dbpedia(kw)
+            if link:
+                dbpedia_results[kw] = {"link": link, "description": description}
+                print(f"  ✓ '{kw}' → {link}")
+
+        all_bigrams.append({
+            "id": article_id,
+            "title": title,
+            "dbpedia": dbpedia_results,
+        })
+        save_json(bigrams_path, all_bigrams)
+        done_bigrams.add(article_id)
+
+        processed += 1
+        print(f"  Total processed: {processed}")
+
+    print(f"\nDone.")
+    print(f"  Keywords file : {keywords_path}")
+    print(f"  DBpedia file  : {bigrams_path}")
 
 
 # ---------------------------------------------------------------------------
@@ -214,16 +195,18 @@ def process_elife_file(file_path, output_folder, start_id, end_id, skip_dbpedia=
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="YAKE keyword extraction + DBpedia enrichment for biomedical lay summarization."
+        description=(
+            "Stage 1 — YAKE keyword extraction + DBpedia enrichment. "
+            "Run from a LOGIN NODE (requires internet access)."
+        )
     )
     parser.add_argument("start_id", type=int, help="First article index to process (1-based).")
-    parser.add_argument("end_id", type=int, help="Last article index to process (inclusive).")
+    parser.add_argument("end_id",   type=int, help="Last article index to process (inclusive).")
     parser.add_argument(
         "--input-file",
         required=True,
-        help="Path to the eLife JSON file to process (e.g. /path/to/elife_train.json). "
-             "Can also be set via the ELIFE_INPUT_FILE environment variable.",
         default=os.environ.get("ELIFE_INPUT_FILE"),
+        help="Path to the eLife JSON file. Also settable via $ELIFE_INPUT_FILE.",
     )
     parser.add_argument(
         "--output-folder",
@@ -231,17 +214,7 @@ def parse_args():
             "YAKE_OUTPUT_DIR",
             "/projects/F202600026AIVLABDEUCALION/Biomedical_Summary_Enhanced/YakePreProcess/Files_pre_processed",
         ),
-        help="Folder where processed output JSON files will be saved. "
-             "Can also be set via the YAKE_OUTPUT_DIR environment variable.",
-    )
-    parser.add_argument(
-        "--skip-dbpedia",
-        action="store_true",
-        help="Skip DBpedia enrichment (use on SLURM nodes without internet access). "
-             "Run dbpedia_enrich.py afterwards from a login node to complete enrichment.",
-        default=os.environ.get("OLLAMA_API_URL", OLLAMA_API_URL),
-        help="Ollama API base URL (default: http://127.0.0.1:11434/api/generate). "
-             "Can also be set via the OLLAMA_API_URL environment variable.",
+        help="Output folder for processed JSON files. Also settable via $YAKE_OUTPUT_DIR.",
     )
     return parser.parse_args()
 
@@ -253,10 +226,5 @@ if __name__ == "__main__":
         print(f"Error: input file not found: {args.input_file}")
         sys.exit(1)
 
-    # Allow overriding the Ollama URL at runtime
-    OLLAMA_API_URL = args.ollama_url
-
     os.makedirs(args.output_folder, exist_ok=True)
-
-    process_elife_file(args.input_file, args.output_folder, args.start_id, args.end_id,
-                       skip_dbpedia=args.skip_dbpedia)
+    process_elife_file(args.input_file, args.output_folder, args.start_id, args.end_id)
