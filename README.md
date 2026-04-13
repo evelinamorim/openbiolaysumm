@@ -381,6 +381,10 @@ python src/evaluation/evaluate_bart.py \
 
 ### BART + YAKE
 ```bash
+# application of YAKE and searching in DBPedia API
+mkdir -p data/yakepreprocess/
+python src/data_preprocessing/yake_preprocess.py 1 1582 --input-file data/train_filtered.json --output-folder /data/yakepreprocess/
+
 # Preprocess
 python src/data_preprocessing/create_yake_bart_data.py
 

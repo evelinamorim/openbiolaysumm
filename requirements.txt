@@ -7,3 +7,4 @@ textstat==0.7.3
 nltk==3.9.4
 absl-py==2.4.0
 rouge-score==0.1.2
+yake==0.7.3
