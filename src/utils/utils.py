@@ -79,33 +79,50 @@ def update_config(save_dir, kg_config):
 def get_processed_elife_data(ds, tokenizer, config, split, shuffle=False):
     
     def process_data_to_model_inputs(batch):
-        # tokenize the inputs and labels
+        """
+        Process batch for BART training.
+        Handles multiple data formats:
+        - train_filtered.json: has 'abstract' as list
+        - train_yake_bart.json: has 'article' as string (with keywords)
+        """
+        # Handle different field names
+        if "abstract" in batch:
+            abstracts = batch["abstract"]
+        elif "article" in batch:
+            abstracts = batch["article"]
+        else:
+            raise KeyError("Batch must have 'abstract' or 'article' field")
+    
+        summaries = batch["summary"]
+    
+        # Convert lists to strings if needed
+        if abstracts and isinstance(abstracts[0], list):
+            abstracts = [" ".join(sentences) for sentences in abstracts]
+    
+        if summaries and isinstance(summaries[0], list):
+            summaries = [" ".join(sentences) for sentences in summaries]
+    
+        # Tokenize inputs
         inputs = tokenizer(
-            batch["article"],
+            abstracts,
             padding="max_length",
             truncation=True,
-            max_length=config['encoder_max_length'],
+            max_length=config.get('encoder_max_length', 1024),
         )
+    
+        # Tokenize outputs
         outputs = tokenizer(
-            batch["summary"],
+            summaries,
             padding="max_length",
             truncation=True,
-            max_length=config['decoder_max_length'],
+            max_length=config.get('decoder_max_length', 256),
         )
 
         batch["input_ids"] = inputs.input_ids
         batch["attention_mask"] = inputs.attention_mask
+        batch["labels"] = outputs.input_ids.copy()
 
-        # create 0 global_attention_mask lists
-        batch["global_attention_mask"] = len(batch["input_ids"]) * [
-            [0 for _ in range(len(batch["input_ids"][0]))]
-        ]
-
-        # since above lists are references, the following line changes the 0 index for all samples
-        batch["global_attention_mask"][0][0] = 1
-        batch["labels"] = outputs.input_ids
-
-        # We have to make sure that the PAD token is ignored
+        # Replace padding with -100
         batch["labels"] = [
             [-100 if token == tokenizer.pad_token_id else token for token in labels]
             for labels in batch["labels"]

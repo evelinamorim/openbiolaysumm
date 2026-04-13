@@ -14,7 +14,7 @@ config_path = sys.argv[1]
 config = load_train_config(config_path)
 os.makedirs(config['output_dir'], exist_ok=True)
 
-ds = "DSplit"
+ds = "checkpoints"
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 accelerator = Accelerator(mixed_precision="fp16")  # use fp16 to reduce GPU memory
 
@@ -145,12 +145,12 @@ for epoch in range(config['num_epochs']):
     print(f"Validation metrics: {result}")
     
     # Save every epoch
-    accelerator.wait_for_everyone()
+    #accelerator.wait_for_everyone()
     unwrapped_model = accelerator.unwrap_model(model)
-    epoch_dir = os.path.join(config['output_dir'], f"epoch_{epoch + 1}")
-    unwrapped_model.save_pretrained(epoch_dir, save_function=accelerator.save)
-    tokenizer.save_pretrained(epoch_dir)
-    print(f"✓ Model saved to {epoch_dir}")
+    #epoch_dir = os.path.join(config['output_dir'], f"epoch_{epoch + 1}")
+    #unwrapped_model.save_pretrained(epoch_dir, save_function=accelerator.save)
+    #tokenizer.save_pretrained(epoch_dir)
+    #print(f"✓ Model saved to {epoch_dir}")
     
     # Track and save best model based on ROUGE-L
     if result.get('rougeL', 0) > best_rougeL:
