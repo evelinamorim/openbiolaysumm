@@ -340,7 +340,8 @@ If you prefer step-by-step control instead of complete pipelines:
 ### OpenBioLaySumm (YAKE + DBpedia)
 ```bash
 # 1. Extract keywords and query DBpedia
-python src/data_preprocessing/yake_preprocess.py --split train
+mkdir -p data/yakepreprocess/
+python src/data_preprocessing/yake_preprocess.py 1 1582 --input-file train_filtered.json --output_folder yake_preprocess
 python src/data_preprocessing/yake_preprocess.py --split val
 python src/data_preprocessing/yake_preprocess.py --split test
 
