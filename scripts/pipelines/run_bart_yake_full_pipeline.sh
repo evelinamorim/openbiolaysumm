@@ -24,8 +24,13 @@ echo "Step 1/3: Preprocessing - Creating YAKE+BART Data..."
 echo "  (Prepending keywords to abstracts)"
 echo ""
 
+
+
 # Preprocess (if not already done)
 if [ ! -f "data/train_yake_bart.json" ]; then
+    python src/data_preprocessing/yake_preprocess.py 1 1582\
+     --input-file ../data/train_filtered.json \
+     --output-folder ../data/yakepreprocess/
     python src/data_preprocessing/create_yake_bart_data.py \
         --input data/train_filtered.json \
         --output data/train_yake_bart.json
