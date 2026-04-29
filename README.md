@@ -182,6 +182,15 @@ bash scripts/pipelines/run_bart_full_pipeline.sh
 bash scripts/pipelines/run_bart_yake_full_pipeline.sh
 ```
 
+Before running the YAKE+BART pipeline, edit the following variables in
+`scripts/pipelines/run_bart_yake_full_pipeline.sh`:
+
+```bash
+OLLAMA_BIN=PUT_YOUR_OLLAMA_BINARY_HERE   # e.g. /your/path/ollama/bin/ollama
+OLLAMA_MODELS=PUT_YOUR_OLLAMA_DIR_MODEL_HERE  # e.g. /your/path/ollama_models
+
+This scripts already produce the output for the OpenBioLaySumm, thus it uses ollama as well.
+
 **What it does:**
 - Prepends YAKE keywords to abstracts
 - Trains BART on augmented data
@@ -196,6 +205,11 @@ bash scripts/pipelines/run_bart_yake_full_pipeline.sh
 ```bash
 bash scripts/pipelines/run_yake_dbpedia_full_pipeline.sh
 ```
+
+OLLAMA_BIN=PUT_YOUR_OLLAMA_BINARY_HERE   # e.g. /your/path/ollama/bin/ollama
+OLLAMA_MODELS=PUT_YOUR_OLLAMA_DIR_MODEL_HERE  # e.g. /your/path/ollama_models
+
+These are used for ollama to filter the non-biomedical keywords.
 
 **What it does:**
 1. **Keyword Extraction** - YAKE extracts biomedical concepts
