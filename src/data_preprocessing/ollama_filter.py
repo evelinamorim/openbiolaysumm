@@ -76,13 +76,30 @@ def load_model(hf_home):
 # ---------------------------------------------------------------------------
 
 def build_prompt(keyword, description):
+    # Use DeepSeek chat template to get structured yes/no after </think>
     return (
-        f"You are a biomedical domain expert. Given the following term and its description, "
-        f"classify whether it belongs to the biomedical or biological domain.\n\n"
+        f"<|begin_of_sentence|><|User|>Is the following term related to the biomedical "
+        f"or biological domain? Answer only yes or no.\n"
         f"Term: {keyword}\n"
-        f"Description: {description}\n\n"
-        f"Answer with only 'yes' if it is biomedical/biological, or 'no' if it is not.\nAnswer:"
+        f"Description: {description}<|Assistant|>"
     )
+
+
+def parse_answer(generated_text):
+    """Extract yes/no from DeepSeek output, handling <think> reasoning chains."""
+    text = generated_text.lower()
+    # Look at text after </think> if present
+    if "</think>" in text:
+        text = text.split("</think>")[-1]
+    yes_pos = text.find("yes")
+    no_pos  = text.find("no")
+    if yes_pos == -1 and no_pos == -1:
+        return False  # default to not biomedical if unclear
+    if yes_pos == -1:
+        return False
+    if no_pos == -1:
+        return True
+    return yes_pos < no_pos
 
 
 def classify_keywords_batch(keywords_with_meta, tokenizer, model, batch_size=32):
@@ -107,7 +124,7 @@ def classify_keywords_batch(keywords_with_meta, tokenizer, model, batch_size=32)
         with torch.no_grad():
             outputs = model.generate(
                 **inputs,
-                max_new_tokens=5,       # only need yes/no
+                max_new_tokens=256,     # enough for <think>...</think> + yes/no
                 do_sample=False,
                 pad_token_id=tokenizer.eos_token_id,
             )
@@ -115,9 +132,10 @@ def classify_keywords_batch(keywords_with_meta, tokenizer, model, batch_size=32)
         # Decode only the newly generated tokens
         for j, output in enumerate(outputs):
             input_len = inputs["input_ids"].shape[1]
-            generated = tokenizer.decode(output[input_len:], skip_special_tokens=True).strip().lower()
-            results.append("yes" in generated)
-            print(f"  [{i+j+1}/{len(prompts)}] '{keywords_with_meta[i+j][0]}' → {generated}")
+            generated = tokenizer.decode(output[input_len:], skip_special_tokens=True).strip()
+            is_bio = parse_answer(generated)
+            results.append(is_bio)
+            print(f"  [{i+j+1}/{len(prompts)}] '{keywords_with_meta[i+j][0]}' → {'yes' if is_bio else 'no'}")
 
     return results
 
