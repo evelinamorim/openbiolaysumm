@@ -35,18 +35,35 @@ MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
 # Model loading
 # ---------------------------------------------------------------------------
 
+def get_local_model_path(hf_home):
+    """Resolve the local snapshot path, avoiding any HuggingFace hub calls."""
+    model_dir = os.path.join(
+        hf_home,
+        "models--" + MODEL_NAME.replace("/", "--"),
+        "snapshots",
+    )
+    if not os.path.isdir(model_dir):
+        raise FileNotFoundError(f"Model not found locally at: {model_dir}")
+    snapshots = os.listdir(model_dir)
+    if not snapshots:
+        raise FileNotFoundError(f"No snapshots found in: {model_dir}")
+    return os.path.join(model_dir, snapshots[0])
+
+
 def load_model(hf_home):
-    print(f"Loading model: {MODEL_NAME}")
-    print(f"Loading tokenizer...", flush=True)
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, cache_dir=hf_home)
+    local_path = get_local_model_path(hf_home)
+    print(f"Loading model from: {local_path}", flush=True)
+
+    print("Loading tokenizer...", flush=True)
+    tokenizer = AutoTokenizer.from_pretrained(local_path, local_files_only=True)
     print("Tokenizer loaded.", flush=True)
 
-    print(f"Loading model weights (may take 10-15 min on network filesystem)...", flush=True)
+    print("Loading model weights...", flush=True)
     model = AutoModelForCausalLM.from_pretrained(
-        MODEL_NAME,
+        local_path,
         torch_dtype=torch.float16,
         device_map="auto",
-        cache_dir=hf_home,
+        local_files_only=True,
         low_cpu_mem_usage=True,
     )
     model.eval()
