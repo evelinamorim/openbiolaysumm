@@ -37,15 +37,20 @@ MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
 
 def load_model(hf_home):
     print(f"Loading model: {MODEL_NAME}")
+    print(f"Loading tokenizer...", flush=True)
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, cache_dir=hf_home)
+    print("Tokenizer loaded.", flush=True)
+
+    print(f"Loading model weights (may take 10-15 min on network filesystem)...", flush=True)
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
         torch_dtype=torch.float16,
         device_map="auto",
         cache_dir=hf_home,
+        low_cpu_mem_usage=True,
     )
     model.eval()
-    print(f"Model loaded on: {next(model.parameters()).device}")
+    print(f"Model loaded on: {next(model.parameters()).device}", flush=True)
     return tokenizer, model
 
 
